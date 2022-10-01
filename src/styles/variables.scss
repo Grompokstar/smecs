@@ -1,0 +1,152 @@
+// NOTE: 1rem = {your_value_in_px} / 10;
+// EXAMPLE: 155px / 10 = 15.5rem;
+
+// COLORS
+$brand-primary-color: #D13063;
+$brand-dark-grey:     #5f6674;
+$brand-middle-grey:   #a1a6b2;
+$brand-success-color: #3ac0a2;
+$brand-warning-color: #f0ad4e;
+$brand-info-color:    #428bca;
+$white:               #ffffff;
+$black:               #000000;
+$default-text-color:  rgba($black, 0.9);
+$link-color:          #368cd6;
+$link-hover-color:    dakrne($link-color, 5%);
+$app-bg:              #E5E5E5;
+$app-light-bg:        #F8F8FB;
+
+// PADDINGS & MARGINS
+
+$padding-xs: 0.5rem;
+$padding-sm: 1rem;
+$padding-md: 1.5rem;
+$padding-lg: 2rem;
+$padding-xl: 2.5rem;
+$padding-xxl: 3rem;
+
+$margin-xs: $padding-xs;
+$margin-sm: $padding-sm;
+$margin-md: $padding-md;
+$margin-lg: $padding-lg;
+$margin-xl: $padding-xl;
+$margin-xxl: $padding-xxl;
+
+// UI SIZES
+$header-height: 5rem;
+$side-menu-width: 24.5rem;
+$side-menu-right-border-size: 0.1rem;
+$top-panel-height: 5.5rem;
+$side-menu-minimized-width: $top-panel-height;
+$default-form-width: 80rem;
+$view-content-padding: $padding-lg;
+
+//ADAPTIVE WIDTHS
+$mobile-width: 800px;
+$tablet-width: 1100px;
+
+// FONT SIZES
+$font-xs: 0.9rem;
+$font-xs1: 1rem;
+$font-xs2: 1.1rem;
+$font-sm: 1.2rem;
+$font-sm1: 1.3rem;
+$font-sm2: 1.4rem;
+$font-md: 1.5rem;
+$font-md1: 1.6rem;
+$font-md2: 1.7rem;
+$font-lg: 1.9rem;
+$font-lg1: 2rem;
+$font-lg2: 2.1rem;
+$font-xl: 2.3rem;
+$font-xxl: 2.7rem;
+
+// BORDERS
+$default-border-color: lighten($app-bg, 4%);
+$default-border: 0.1rem solid $default-border-color;
+$dotted-border: 0.1rem dotted $default-border-color;
+$dashed-border: 0.1rem dashed $default-border-color;
+
+// VISUAL EFFECTS VARIABLES
+$transition-duration: 0.2s;
+$default-box-shadow-color: rgba($brand-dark-grey, 0.2);
+
+// VISUAL EFFECTS
+$def-br: 0.5rem; //default border-radius
+$default-box-shadow: 0 0 1.5rem $default-box-shadow-color;
+$light-box-shadow: 0 0 1rem lighten($default-box-shadow-color, 15%);
+
+
+$spacer-x: 2px;
+$spacer-y: 2px;
+
+$spacers: (
+        0: (
+                x: 0,
+                y: 0
+        ),
+        2: (
+                x: $spacer-x,
+                y: $spacer-y
+        ),
+        4: (
+                x: ($spacer-x * 2),
+                y: ($spacer-y * 2)
+        ),
+        6: (
+                x: ($spacer-x * 3),
+                y: ($spacer-y * 3)
+        ),
+        8: (
+                x: ($spacer-x * 4),
+                y: ($spacer-y * 4)
+        ),
+        10: (
+                x: ($spacer-x * 5),
+                y: ($spacer-y * 5)
+        ),
+        12: (
+                x: ($spacer-x * 6),
+                y: ($spacer-y * 6)
+        ),
+        14: (
+                x: ($spacer-x * 7),
+                y: ($spacer-y * 7)
+        ),
+        16: (
+                x: ($spacer-x * 8),
+                y: ($spacer-y * 8)
+        ),
+        18: (
+                x: ($spacer-x * 9),
+                y: ($spacer-y * 9)
+        ),
+        20: (
+                x: ($spacer-x * 10),
+                y: ($spacer-y * 10)
+        ),
+        22: (
+                x: ($spacer-x * 11),
+                y: ($spacer-y * 11)
+        ),
+        24: (
+                x: ($spacer-x * 12),
+                y: ($spacer-y * 12)
+        ),
+        26: (
+                x: ($spacer-x * 13),
+                y: ($spacer-y * 13)
+        ),
+        28: (
+                x: ($spacer-x * 14),
+                y: ($spacer-y * 14)
+        ),
+        30: (
+                x: ($spacer-x * 15),
+                y: ($spacer-y * 15)
+        ),
+        32: (
+                x: ($spacer-x * 16),
+                y: ($spacer-y * 16)
+        ),
+);

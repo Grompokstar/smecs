@@ -1,0 +1,64 @@
+@import "variables";
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-weight: 400;
+
+  font: {
+    family: 'Public Sans', sans-serif;
+  }
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+b {
+  font-weight: 700;
+}
+
+.weight-300 {
+  font-weight: 300!important;
+}
+
+.weight-400 {
+  font-weight: 400!important;
+}
+
+.weight-500 {
+  font-weight: 500!important;
+}
+
+.weight-600 {
+  font-weight: 600!important;
+}
+
+.weight-700 {
+  font-weight: 700!important;
+}
+
+button {
+  &.ui-btn {
+    width: 349px;
+    background-color: $white;
+    color: $brand-primary-color;
+    border-radius: 6px;
+    font-size: 24px;
+    line-height: 1.175;
+    font-weight: 700;
+    padding: 26px 20px;
+    transition: border-radius 0.3s linear;
+
+    &:hover {
+      border-radius: 40px;
+    }
+
+    &.primary {
+      background-color: $brand-primary-color;
+      color: $white;
+    }
+  }
+}

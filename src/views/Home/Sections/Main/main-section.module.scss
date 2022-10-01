@@ -1,0 +1,35 @@
+@import "variables";
+
+.root {
+  position: relative;
+  height: 1080px;
+  background: radial-gradient(68.62% 88.75% at 66.48% 63.65%, #071854 0%, #000B38 51.69%, #03020A 100%);
+  padding: 128px 120px;
+  color: $white;
+}
+
+.title {
+  margin-bottom: 60px;
+  max-width: 900px;
+  font-size: 72px;
+  line-height: 86.4px;
+  font-weight: 400;
+  font-family: 'Zilla Slab', serif;
+}
+
+.description {
+  margin-bottom: 38px;
+  max-width: 577px;
+  font-size: 28px;
+  line-height: 1.57;
+  font-weight: 300;
+}
+
+.planets {
+  position: absolute;
+  top: 128px;
+  right: 120px;
+  width: 890px;
+  height: 900px;
+  background: url("/images/landing/planets.svg") no-repeat;
+}
