@@ -17,9 +17,7 @@ const MainSection = (): JSX.Element => {
         <button className="ui-btn">Assess my Country</button>
       </div>
 
-      <div className={styles.planets}>
-
-      </div>
+      <div className={styles.planets}/>
     </div>
   )
 };
