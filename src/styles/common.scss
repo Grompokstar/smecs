@@ -6,6 +6,7 @@ html {
 
 body {
   font-weight: 400;
+  color: $font-color;
 
   font: {
     family: 'Public Sans', sans-serif;
@@ -14,6 +15,11 @@ body {
   &.no-scroll {
     overflow: hidden;
   }
+}
+
+.page-content {
+  max-width: 1680px;
+  margin: 0 auto;
 }
 
 b {

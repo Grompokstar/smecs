@@ -6,6 +6,7 @@
     "build-rsuite": "npx lessc -s -x src/styles/rsuite/rsuite.less src/styles/rsuite/styles.css",
     "dev": "npm run build-rsuite && next dev",
     "build": "npm run build-rsuite && next build",
+    "build-static": "npm run build-rsuite && next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
