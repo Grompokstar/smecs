@@ -37,4 +37,8 @@
   width: 890px;
   height: 900px;
   background: url("/images/landing/planets.svg") no-repeat;
+
+  @media(max-width: 1700px) {
+    right: 30px;
+  }
 }
