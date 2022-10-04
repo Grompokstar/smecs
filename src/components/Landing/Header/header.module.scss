@@ -1,0 +1,9 @@
+@import "variables";
+
+.root {
+  width: 100%;
+  padding: 32px 0 20px;
+  position: absolute;
+  color: $white;
+  z-index: 5;
+}
