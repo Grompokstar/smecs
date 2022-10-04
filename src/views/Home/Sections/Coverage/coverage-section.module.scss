@@ -66,3 +66,45 @@
     justify-content: center;
   }
 }
+
+.sign_up_block {
+  background: $font-color url("/images/landing/form_bg.svg") no-repeat top right;
+  background-size: contain;
+  padding: 68px 40px;
+
+  :global(.title-3) {
+    color: $white;
+  }
+
+  .subtitle {
+    color: #AED0F3;
+  }
+
+  .form_row {
+    display: flex;
+    justify-content: center;
+  }
+
+  :global(input.rs-input) {
+    margin-right: 86px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    padding: 15px 28px;
+    font-size: 21px;
+    color: $white;
+
+    &::-webkit-input-placeholder {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    &::-moz-placeholder {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    &:-moz-placeholder {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    &:-ms-input-placeholder {
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+}

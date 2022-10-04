@@ -1,3 +1,4 @@
+import { Input } from 'rsuite';
 import styles                        from './coverage-section.module.scss';
 
 const CoverageSection = (): JSX.Element => {
@@ -47,6 +48,20 @@ const CoverageSection = (): JSX.Element => {
             <div className={styles.description}>
               SME competitiveness in Ghana
             </div>
+          </div>
+        </div>
+
+        <div className={styles.sign_up_block}>
+          <h3 className="title-3 mb-18">Let’s stay in touch</h3>
+          <div className={`${styles.subtitle} mb-40`}>
+            Sign up to receive monthly news on ITC business intelligence
+          </div>
+          <div className={styles.form_row}>
+            <Input
+              style={{ width: 433 }}
+              placeholder="Your Email Adress"
+            />
+            <button className="ui-btn primary">Assess my Firm</button>
           </div>
         </div>
       </div>
