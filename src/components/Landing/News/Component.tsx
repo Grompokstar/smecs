@@ -40,7 +40,7 @@ const News = (): JSX.Element => {
     <div className={styles.news}>
       {
         data.map((item) => (
-          <div className={styles.item_card}>
+          <div className={styles.item_card} key={item.image}>
             <div className={styles.card_type}>
               {item.type}
             </div>
