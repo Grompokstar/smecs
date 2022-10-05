@@ -1,4 +1,5 @@
 import { Input } from 'rsuite';
+import News from 'components/Landing/News'
 import styles                        from './coverage-section.module.scss';
 
 const CoverageSection = (): JSX.Element => {
@@ -64,6 +65,9 @@ const CoverageSection = (): JSX.Element => {
             <button className="ui-btn primary">Assess my Firm</button>
           </div>
         </div>
+
+        <h3 className="title-3 mb-64">News and Events</h3>
+        <News/>
       </div>
     </div>
   )

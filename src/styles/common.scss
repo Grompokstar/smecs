@@ -74,10 +74,20 @@ button {
   }
 }
 
+.title-2 {
+  font-family: $zilla;
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: $font-medium-color;
+}
+
 .title-3 {
   font-family: $zilla;
   font-size: 56px;
   line-height: 1.2;
   font-weight: 700;
   text-align: center;
+  color: $font-medium-color;
 }

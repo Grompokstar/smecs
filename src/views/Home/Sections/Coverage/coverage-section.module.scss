@@ -1,7 +1,7 @@
 @import "variables";
 
 .root {
-  padding: 140px 0 60px;
+  padding: 140px 0 50px;
   background: rgba(174, 208, 243, 0.2);
 }
 
@@ -68,6 +68,7 @@
 }
 
 .sign_up_block {
+  margin-bottom: 127px;
   background: $font-color url("/images/landing/form_bg.svg") no-repeat top right;
   background-size: contain;
   padding: 68px 40px;

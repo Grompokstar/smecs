@@ -93,11 +93,15 @@ $spacers: (
                 y: ($spacer-y * 20)
         ),
         50: (
-                x: ($spacer-x * 50),
-                y: ($spacer-y * 50)
+                x: ($spacer-x * 25),
+                y: ($spacer-y * 25)
         ),
         60: (
-                x: ($spacer-x * 60),
-                y: ($spacer-y * 60)
+                x: ($spacer-x * 30),
+                y: ($spacer-y * 30)
+        ),
+        64: (
+                x: ($spacer-x * 32),
+                y: ($spacer-y * 32)
         ),
 );
