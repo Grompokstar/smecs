@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import HomeView from "views/Home";
 import PageHeader from "components/Landing/Header";
+import PageFooter from "components/Landing/Footer";
 
 
 const Home: NextPage = () => {
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <div className="page">
         <PageHeader/>
         <HomeView/>
+        <PageFooter/>
       </div>
     </>
   )
