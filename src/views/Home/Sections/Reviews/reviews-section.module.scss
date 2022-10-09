@@ -1,0 +1,77 @@
+@import "variables";
+
+.root {
+  background: $white;
+  padding-bottom: 184px;
+
+  :global(h3) {
+    margin-bottom: 95px;
+  }
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -20px;
+}
+
+.review_card {
+  background-color: #F1F3F4;
+  margin: 0 20px 40px;
+  padding: 58px 28px 25px;
+  flex-basis: 388px;
+  display: flex;
+  flex-direction: column;
+
+  .quote {
+    font-family: 'Arial', sans-serif;
+    color: $brand-primary-color;
+    font-size: 128px;
+    line-height: 80px;
+    font-weight: 700;
+  }
+
+  .review_text {
+    font-family: $zilla;
+    font-size: 20px;
+    line-height: 1.2;
+    color: black;
+    padding-bottom: 40px;
+    flex-grow: 1;
+  }
+
+  .person_row {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 72px;
+      height: 72px;
+      display: block;
+      margin-right: 18px;
+    }
+
+    .name {
+      color: black;
+      font-size: 17px;
+      line-height: 1.6;
+      font-weight: 700;
+    }
+
+    .position {
+      font-size: 14px;
+      line-height: 1.6;
+      font-weight: 400;
+      opacity: 0.4;
+    }
+  }
+}
+
+@media (max-width: 1740px) {
+  .reviews {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+

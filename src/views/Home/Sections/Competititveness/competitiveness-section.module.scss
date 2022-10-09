@@ -2,8 +2,14 @@
 
 .root {
   position: relative;
-  padding: 78px 0 0;
-  background: #EFF6FD url("/images/landing/competitiveness.svg") no-repeat top 66px right 22px;
+  padding: 0;
+  background-color: #EFF6FD;
+
+  :global(.page-content) {
+    padding-top: 78px;
+    background:  url("/images/landing/competitiveness.svg") no-repeat top 56px right -80px;
+
+  }
 }
 
 .title {
@@ -16,7 +22,7 @@
 }
 
 .title2 {
-  margin-top: 210px;
+  margin-top: 230px;
   //margin-bottom: 40px;
   font-size: 56px;
   line-height: 1.2;
@@ -26,11 +32,16 @@
   color: $font-medium-color;
 }
 
-.description {
+.description_1 {
   max-width: 863px;
   font-size: 28px;
-  line-height: 1.57;
-  font-weight: 400;
+  line-height: 1.71;
+}
+
+.description_2 {
+  max-width: 863px;
+  font-size: 28px;
+  line-height: 1.5;
 }
 
 .subtitle {

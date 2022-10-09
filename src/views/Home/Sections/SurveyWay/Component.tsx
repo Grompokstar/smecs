@@ -10,7 +10,7 @@ const SurveyWaySection = (): JSX.Element => {
         <div className="subtitle">
           Conducting a small business intelligence survey involves the following steps:
         </div>
-        <div className={styles.way_bg_container}></div>
+        <div className={styles.way_bg}/>
         <div className={styles.way_container}>
           <div className={styles.align_left_row}>
             <div className={styles.step}>
@@ -75,6 +75,10 @@ const SurveyWaySection = (): JSX.Element => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className={styles.btn_row}>
+          <button className="ui-btn primary">Become our Partner</button>
         </div>
       </div>
     </div>

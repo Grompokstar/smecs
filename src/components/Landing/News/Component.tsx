@@ -2,6 +2,7 @@ import styles                        from './news.module.scss';
 
 const data = [
   {
+    id: 1,
     type: 'news',
     image: '/images/landing/news/photo_1.png',
     title: 'On-site data collection on Eswatini agribusinesses started',
@@ -10,6 +11,7 @@ const data = [
     text: 'A nation-wide survey on the export competitiveness of agribusinesses in Eswatini has started on 1 February...'
   },
   {
+    id: 2,
     type: 'news',
     image: '/images/landing/news/photo_2.png',
     title: 'Interviewers completed training on SME Competitiveness survey methods',
@@ -18,6 +20,7 @@ const data = [
     text: 'Interviewers from FENALCO have successfully completed training on SME competitiveness data collection...'
   },
   {
+    id: 3,
     type: 'event',
     image: '/images/landing/news/photo_3.png',
     title: 'Trade competitiveness study of Tajik women entrepreneurs launched',
@@ -26,6 +29,7 @@ const data = [
     text: 'Tajik women entrepreneurs have seen improved business ecosystem but continue to face access to finance...'
   },
   {
+    id: 4,
     type: 'event',
     image: '/images/landing/news/photo_4.png',
     title: 'Presentation and validation of SME study in Togo',
@@ -40,7 +44,7 @@ const News = (): JSX.Element => {
     <div className={styles.news}>
       {
         data.map((item) => (
-          <div className={styles.item_card} key={item.image}>
+          <div className={styles.item_card} key={item.id}>
             <div className={styles.card_type}>
               {item.type}
             </div>

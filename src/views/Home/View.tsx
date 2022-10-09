@@ -5,6 +5,7 @@ import HowSection from "./Sections/How";
 import CoverageSection from "./Sections/Coverage";
 import PartnerSection from "./Sections/Partner";
 import SurveyWaySection from "./Sections/SurveyWay";
+import ReviewsSection from "./Sections/Reviews";
 
 const HomeView = (): JSX.Element => {
   return (
@@ -15,6 +16,7 @@ const HomeView = (): JSX.Element => {
       <CoverageSection/>
       <PartnerSection/>
       <SurveyWaySection/>
+      <ReviewsSection/>
     </div>
   )
 };

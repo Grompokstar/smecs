@@ -23,10 +23,10 @@ const CompetitivenessSection = (): JSX.Element => {
       <div className={styles.root}>
         <div className="page-content">
           <h1 className={styles.title}>What is competitiveness?</h1>
-          <div className={`${styles.description} mb-50`}>
+          <div className={`${styles.description_1} mb-70`}>
             Competitiveness is the ability of a firm to design, produce and&nbsp;commercialise a good or service that meets market demand, while connecting with the business environment and earning returns in a sustainable way. The&nbsp;more competitive a firm, the more likely it is to export.
           </div>
-          <div className={styles.description}>
+          <div className={styles.description_2}>
             At ITC, we assess firm competitiveness along three pillars – <span className="weight-700">Compete, Connect, Change</span> and three levels of competitiveness – <span className="weight-700">Firm Capabilities, Business Ecosystems, National Environment.</span>
           </div>
 
