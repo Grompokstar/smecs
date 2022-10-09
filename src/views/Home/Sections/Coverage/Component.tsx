@@ -1,6 +1,6 @@
-import { Input } from 'rsuite';
+import {Input} from 'rsuite';
 import News from 'components/Landing/News'
-import styles                        from './coverage-section.module.scss';
+import styles from './coverage-section.module.scss';
 
 const CoverageSection = (): JSX.Element => {
   return (
@@ -8,7 +8,8 @@ const CoverageSection = (): JSX.Element => {
       <div className="page-content">
         <h2 className={styles.title}>Geographical Coverage</h2>
         <div className={styles.subtitle}>
-          More than 35,000 companies in over 55 countries have been surveyed to date using the SME Competitiveness Survey.
+          More than 35,000 companies in over 55 countries have been surveyed to date using the SME Competitiveness
+          Survey.
         </div>
         <div className={styles.world_image_container}>
           <img src="/images/landing/world_map.png" alt="world map coverage"/>
@@ -19,7 +20,8 @@ const CoverageSection = (): JSX.Element => {
 
         <h3 className="title-3 mb-30">Publications</h3>
         <div className={`${styles.subtitle} mb-60`}>
-          SME competitiveness survey results are published as part of the ITC promoting competitiveness series of reports.
+          SME competitiveness survey results are published as part of the ITC promoting competitiveness series of
+          reports.
         </div>
 
         <div className={styles.promo_images_row}>
@@ -59,7 +61,7 @@ const CoverageSection = (): JSX.Element => {
           </div>
           <div className={styles.form_row}>
             <Input
-              style={{ width: 433 }}
+              style={{width: 433}}
               placeholder="Your Email Adress"
             />
             <button className="ui-btn primary">Assess my Firm</button>

@@ -4,6 +4,7 @@ import CompetitivenessSection from "./Sections/Competititveness";
 import HowSection from "./Sections/How";
 import CoverageSection from "./Sections/Coverage";
 import PartnerSection from "./Sections/Partner";
+import SurveyWaySection from "./Sections/SurveyWay";
 
 const HomeView = (): JSX.Element => {
   return (
@@ -13,6 +14,7 @@ const HomeView = (): JSX.Element => {
       <HowSection/>
       <CoverageSection/>
       <PartnerSection/>
+      <SurveyWaySection/>
     </div>
   )
 };

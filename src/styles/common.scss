@@ -22,6 +22,7 @@ body {
 }
 
 .page-content {
+  position: relative;
   max-width: 1740px;
   padding: 0 30px;
   margin: 0 auto;
@@ -90,4 +91,13 @@ button {
   font-weight: 700;
   text-align: center;
   color: $font-medium-color;
+}
+
+.subtitle {
+  font-family: $zilla;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: $font-light-color;
 }
