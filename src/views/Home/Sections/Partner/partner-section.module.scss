@@ -1,6 +1,7 @@
 @import "variables";
 
 .root {
+  padding-bottom: 40px;
 }
 
 .with_image_bg_block {
@@ -65,4 +66,33 @@
       white-space: nowrap;
     }
   }
+}
+
+.partner_logos_section {
+  border: 1px solid #BACFE8;
+  padding: 100px 20px;
+
+  .logos_row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 76px;
+    .logo {
+      height: 87.45px;
+    }
+  }
+
+  .logos_description {
+    font-size: 24px;
+    line-height: 1.83;
+    max-width: 1140px;
+    text-align: center;
+    margin:  0 auto;
+  }
+}
+
+.become_partner_button {
+  position: relative;
+  top: -40px;
+  display: block;
+  margin: 0 auto;
 }

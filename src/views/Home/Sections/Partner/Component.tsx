@@ -68,6 +68,38 @@ const PartnerSection = (): JSX.Element => {
           </div>
         </div>
       </div>
+
+      <div className="page-content">
+        <div className={styles.partner_logos_section}>
+          <div className={styles.logos_row}>
+            <img
+              className={styles.logo}
+              src="/images/landing/partner_logos/logo_1.png"
+            />
+            <img
+              className={styles.logo}
+              src="/images/landing/partner_logos/logo_2.png"
+            />
+            <img
+              className={styles.logo}
+              src="/images/landing/partner_logos/logo_3.png"
+            />
+            <img
+              className={styles.logo}
+              src="/images/landing/partner_logos/logo_4.png"
+            />
+            <img
+              className={styles.logo}
+              src="/images/landing/partner_logos/logo_5.png"
+            />
+          </div>
+
+          <div className={styles.logos_description}>
+            With more than 50 years of trade and development experience, ITC has supported partners to survey more than 18,000 companies in over 46 countries, spotlighting opportunities<br/>to improve small business competitiveness.
+          </div>
+        </div>
+        <button className={`${styles.become_partner_button} ui-btn primary`}>Become our Partner</button>
+      </div>
     </div>
   )
 };
