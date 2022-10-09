@@ -71,6 +71,13 @@ button {
     &.primary {
       background-color: $brand-primary-color;
       color: $white;
+
+      &.outline {
+        background: transparent;
+        outline: 1px solid $brand-primary-color;
+        color: $brand-primary-color;
+        padding: 25px 20px;
+      }
     }
   }
 }

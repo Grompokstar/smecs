@@ -1,0 +1,41 @@
+@import "variables";
+
+.root {
+  background: $font-color url("/images/landing/contact_form_bg.svg") no-repeat;
+  background-size: contain;
+  padding: 64px 0 116px;
+
+  h3 {
+    font-family: $zilla;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+    text-align: center;
+    color: $white;
+    margin-bottom: 56px;
+  }
+}
+
+.form_container {
+  max-width: 1106px;
+  margin: 0 auto;
+}
+
+.inputs_row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -27px 32px;
+
+  input {
+    margin: 0 27px;
+  }
+}
+
+.btn_row {
+  margin-top: 50px;
+  text-align: center;
+
+  :global(.ui-btn) {
+    width: 246px;
+  }
+}
