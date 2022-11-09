@@ -23,10 +23,11 @@
 
 .inputs_row {
   display: flex;
-  justify-content: space-between;
-  margin: 0 -27px 32px;
+  margin: 0 -27px 8px -27px;
 
-  input {
+  :global(.rs-form-group) {
+    flex-basis: 50%;
+    flex-grow: 1;
     margin: 0 27px;
   }
 }
